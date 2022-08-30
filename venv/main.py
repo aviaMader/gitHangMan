@@ -85,8 +85,8 @@ def main():
                 print("TypeError ,please enter a number from the appropriate range") # while the input's user does't correct the program let him know
         frequency = [ 3, 6, 9, 3000] # the list of denominators for the frequency of clues by the level
         while(valid_input): # while the user entered the wrong input, the loop ask him to put another one input and let him know
-            gender = input("would you like to wear pents or skirt?: ")
-            if(gender.lower() == "skirt" or gender.lower() == "pents"):# if the input is correct the variable "valid_input" will flip
+            gender = input("would you like to wear pants or skirt?: ")
+            if(gender.lower() == "skirt" or gender.lower() == "pants"):# if the input is correct the variable "valid_input" will flip
                 valid_input = False
             else:
                 print("TypeError ,please enter 'skirt' or 'pents'")
@@ -166,7 +166,7 @@ def main():
                         pyautogui.hotkey('alt', 'd')
                         print(pyfiglet.figlet_format("CONGRATULATION!", font="banner3-D", width=200), end="")
                     print("you got it\nthe word is:\""+word+"\"\nyou saved this ugly humen")
-                    if (gender.lower() == "pents"):
+                    if (gender.lower() == "pants"):
                         print(Graphics.hang_human_pents[counter])
                     else:
                         print(Graphics.hang_human_skirt[counter])
@@ -179,7 +179,7 @@ def main():
                     concatenate(new_list)
                 if(cycle_counter != 0 and printable == "print"):
                     actual_cycle +=1
-                    if(gender.lower() == "pents" ):
+                    if(gender.lower() == "pants" ):
                         print(Graphics.hang_human_pents[counter])
                     else:
                         print(Graphics.hang_human_skirt[counter])
@@ -206,7 +206,7 @@ def main():
                 pyautogui.hotkey('alt', 'd')
                 print(pyfiglet.figlet_format("LOSER!", font="banner3-D", width=200), end="")
             print("the word was \""+word+"\" \nnext time try something you actually good at like mikado or bingo")
-            if (gender.lower() == "pents"):
+            if (gender.lower() == "pants"):
                 print(Graphics.hang_human_pents[counter])
             else:
                 print(Graphics.hang_human_skirt[counter])
