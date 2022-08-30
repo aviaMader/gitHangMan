@@ -89,7 +89,7 @@ def main():
             if(gender.lower() == "skirt" or gender.lower() == "pants"):# if the input is correct the variable "valid_input" will flip
                 valid_input = False
             else:
-                print("TypeError ,please enter 'skirt' or 'pents'")
+                print("TypeError ,please enter 'skirt' or 'pants'")
         while (not (valid_input)): # while the user entered the wrong input, the loop ask him to put another one input and let him know
             selection = (input("select your preference: \n1 - names\n2 - countries\n3 - animals\n4 - plants\n5 - phrases\n"))
             if (selection > "0" and selection < "6" and len(selection) == 1): # if the input is correct the variable "valid_input" will flip
