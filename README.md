@@ -33,4 +33,4 @@ Hang Man
     [LinedIn - hadar-sarusi](https://www.linkedin.com/in/hadar-sarusi) ,[GitHub - HadarSarusi](https://github.com/HadarSarusi)
 
   Evyatar Baruch
-    [LinedIn - evyatar-baruch](https://www.linkedin.com/in/evyatar-baruch-0947a3244),[GitHub - aviaMader](https://github.com/aviaMader)
+    [LinedIn - evyatar-baruch](https://www.linkedin.com/in/evyatar-baruch-0947a3244) ,[GitHub - aviaMader](https://github.com/aviaMader)
