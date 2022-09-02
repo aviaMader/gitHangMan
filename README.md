@@ -1,6 +1,6 @@
 Hang Man
 
-    * Description
+* Description
 
         A game of Hang Man using python,
         the game starts with some requests from the user about his user_name, preferred figure wardrobe, preferred level and preferred theme,
@@ -13,7 +13,7 @@ Hang Man
         when the user decide to end the game his final score is calculate and inserted into its current position in the list of scores,
         afterwords the ten top player are printed.
 
-    * Instruction
+* Instruction
 
         - install Pyautogui module from pip 
 
@@ -27,12 +27,10 @@ Hang Man
             in order to print designed and enlarge output use this module,
             this is the way it's work: print(pyfiglet.figlet_format('the requested word',font = 'the font'))
 
-    * Credit
+* Credit
 
-        Hadar Sarusi
+  Hadar Sarusi 
+    [LinedIn - hadar-sarusi](https://www.linkedin.com/in/hadar-sarusi) ,[GitHub - HadarSarusi](https://github.com/HadarSarusi)
 
-            [LinedIn - hadar-sarusi](https://www.linkedin.com/in/hadar-sarusi) ,[GitHub - HadarSarusi](https://github.com/HadarSarusi)
-
-        Evyatar Baruch 
-
-            [LinedIn - evyatar-baruch](https://www.linkedin.com/in/evyatar-baruch-0947a3244),[GitHub - aviaMader](https://github.com/aviaMader)
+  Evyatar Baruch
+    [LinedIn - evyatar-baruch](https://www.linkedin.com/in/evyatar-baruch-0947a3244),[GitHub - aviaMader](https://github.com/aviaMader)
